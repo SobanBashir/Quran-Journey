@@ -1,0 +1,1138 @@
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Quran Journey</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- SAME NAVBAR -->
+<nav class="navbar">
+    <div class="logo">
+        <a href="index.html">Quran Journey</a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="tilawat.html">Tilawat</a></li>
+        <li><a href="#">Seerah</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn">Register Now</a>
+</nav>
+
+<!-- HERO WITH BACKGROUND IMAGE -->
+<section class="contact-hero">
+    <div class="overlay">
+        <h1>Contact</h1>
+        <p><a href="index.html">Home</a> / Contact</p>
+    </div>
+</section>
+
+<!-- CONTACT INFO -->
+<section class="contact-info">
+    <h3>Have any Questions...!</h3>
+    <h2>Contact Information</h2>
+
+    <div class="info-boxes">
+
+        <div class="box">
+            <h4>Contact Us Anytime</h4>
+            <p>WhatsApp: +92 304 3008810</p>
+        </div>
+
+        <div class="box">
+            <h4>Write Some Words</h4>
+            <p>info@seerajourney.com</p>
+        </div>
+
+        <div class="box">
+            <h4>Instagram</h4>
+            <p>@uzair_ali_147</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FORM -->
+<section class="contact-form">
+    <div class="contact-form-have-a-question">
+        <h3>Have A Question</h3>
+    </div>
+    <h1>Send Message</h1>
+     <br>
+<form action="https://formspree.io/f/mwvwzonl" method="POST">
+
+    <div class="row">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+    </div>
+
+    <div class="row">
+        <input type="text" name="phone" placeholder="Phone">
+        <input type="text" name="subject" placeholder="Subject">
+    </div>
+
+    <textarea name="message" placeholder="Message"></textarea>
+
+    <div class="contact-form-button">
+        <button type="submit">Submit</button>
+    </div>
+
+</form>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-box">
+
+        <div class="footer-grid">
+
+            <!-- About -->
+            <div>
+                <h3>About Us</h3>
+                <p>
+                    A trusted platform to learn and<br> reflect on the Seerah 
+                    of Prophet Muhammad ﷺ.
+                </p>
+            </div>
+
+                <!-- Links -->
+             <div class="footer-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tilawat.html">Tilawat</a></li>
+                    <li><a href="seerah.html">Seerah</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </div>
+
+            <!-- Contact -->
+            <div>
+                <h3>Contact Info</h3>
+                <p>info@seerahjourney.com</p>
+                <p>Islamabad, Pakistan</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        © 2026 All Rights Reserved
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quran Journey</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+   <div class="logo">
+    <a href="index.html" class="logo">Quran Journey</a>
+    </div>
+
+   <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="tilawat.html">Tilawat</a></li>
+      <li><a href="#seerah">Seerah</a></li>
+      <li><a href="#books">Books</a></li>
+      <li><a href="contact.html">Contact</a></li>
+   </ul>
+    
+   <a href="#" class="btn">Register Now</a>
+    
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Lost in the Love of <br><span>The Prophet</span></h1>
+        <p>A beautiful journey through the life of Prophet Muhammad ﷺ</p>
+        <br>
+        <button class="btn">Explore Now</button>
+    </div>
+</section>
+
+
+
+<!-- SECTION -->
+<!-- <section id="about" class="about"></section>
+
+<section id="offer" class="offer"></section>
+
+<section id="seerah" class="lectures"></section>
+
+<section id="contact" class="footer"></section> -->
+
+
+<!-- OFFER -->
+<section class="offer-section">
+    <h1>Things We Offer</h1>
+    <div class="title-line"></div>
+    
+    <div class="slider">
+      <div class="cards">
+
+        <div class="card">
+            <h2>Authentic Resources</h2>
+            <p>Islamic knowledge from authentic sources</p>
+        </div>
+
+        <div class="card">
+            <h2>Reflection Tasks</h2>
+            <p>Weekly reflections</p>
+        </div>
+
+        <div class="card">
+            <h2>Recorded Sessions</h2>
+            <p>Watch anytime</p>
+        </div>
+
+        <div class="card">
+            <h2>Spiritual Growth</h2>
+            <p>Grow daily</p>
+        </div>
+
+        <!-- duplicate 0 for smooth loop -->
+        <div class="card">
+            <h2>Authentic Resources</h2>
+            <p>Islamic knowledge from authentic sources</p>
+        </div>
+
+        <div class="card">
+            <h2>Reflection Tasks</h2>
+            <p>Weekly reflections</p>
+        </div>
+
+        <div class="card">
+            <h2>Recorded Sessions</h2>
+            <p>Watch anytime</p>
+        </div>
+
+        <div class="card">
+            <h2>Spiritual Growth</h2>
+            <p>Grow daily</p>
+        </div>
+
+          <!-- duplicate 1 for smooth loop -->
+        <div class="card">
+            <h2>Authentic Resources</h2>
+            <p>Islamic knowledge from authentic sources</p>
+        </div>
+
+        <div class="card">
+            <h2>Reflection Tasks</h2>
+            <p>Weekly reflections</p>
+        </div>
+
+        <div class="card">
+            <h2>Recorded Sessions</h2>
+            <p>Watch anytime</p>
+        </div>
+
+        <div class="card">
+            <h2>Spiritual Growth</h2>
+            <p>Grow daily</p>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<!-- FOUNDER -->
+    <!-- <div class="container">
+
+        <div class="image">
+            <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53">
+        </div>
+
+        <div class="content">
+            <h4>Founder & Seerah Instructor</h4>
+            <h1>Hafiz Saram</h1>
+
+            <p>
+                Hafiz Saram founded this Seerah project to make the life of the Prophet ﷺ alive for today's generation.
+            </p>
+
+            <p class="quote">
+                “The goal is not just to study the Seerah — but to live it.”
+            </p>
+            <br>
+            <button class="btn">Start Your Journey</button>
+        </div>
+    </div> -->
+
+<div class="founder-section">
+    <div class="founder-img">
+        <img src="https://images.unsplash.com/photo-1542816417-0983c9c9ad53" alt="Founder">
+    </div>
+
+    <div class="founder-text">
+        <div class="founder-color">
+         <h3>Founder & Seerah Instructor</h3>
+         </div>
+         <div class="founder-name-color">
+          <h1>Hafiz Saram</h1>
+         </div>
+         <div class="title-line-founder"></div>
+         <p> Hafiz Saram founded this Seerah project to make the life of the Prophet ﷺ alive for today's generation.</p>
+          <p class="quote">
+                “The goal is not just to study the Seerah — but to live it.”
+            </p>
+            <br>
+            <button class="btn">Start Your Journey</button>
+    </div>
+</div>
+
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-box">
+
+        <div class="footer-grid">
+
+            <!-- About -->
+            <div>
+                <h3>About Us</h3>
+                <p>
+                    A trusted platform to learn and<br> reflect on the Seerah 
+                    of Prophet Muhammad ﷺ.
+                </p>
+            </div>
+
+                <!-- Links -->
+             <div class="footer-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tilawat.html">Tilawat</a></li>
+                    <li><a href="seerah.html">Seerah</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </div>
+
+            <!-- Contact -->
+            <div>
+                <h3>Contact Info</h3>
+                <p>info@seerahjourney.com</p>
+                <p>Islamabad, Pakistan</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        © 2026 All Rights Reserved
+    </div>
+
+</footer>
+
+<script src="animation.js"></script>
+
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* navbar ki height ke barabar */
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* ❌ left-right white space fix */
+    background-color: #ffffff; /* 🔥 dark color (hero jaisa) */
+    
+}
+
+body {
+    margin: 0;
+    padding: 0; /* navbar height */
+}
+
+html {
+    overscroll-behavior: none;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.nav-links a:hover {
+   color: #f5b800;
+}
+
+/* CONTACT.OVERLAY.HOME */
+.overlay a {
+    color: #f5b800;
+    text-decoration: none;
+}
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    background: rgb(0, 0, 0); 
+}
+
+/* LEFT LOGO */
+.logo a {
+    color: rgb(251, 255, 0);
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* RIGHT SIDE WRAPPER */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: auto; /* 🔥 important */
+}
+
+/* NAV LINKS */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BUTTON */
+.btn {
+    margin-left: 20px;
+    background: gold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* NAVBAR TOGGLE */
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* BUTTON BASE */
+.btn, button {
+    background: #f5b800;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.btn:hover, button:hover {
+    background: #d49f00;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* CLICK EFFECT */
+.btn:active, button:active {
+    transform: scale(0.95);
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+    left: 0;
+    top: 0;
+    transition: 0.3s;
+    border-radius: 25px;
+}
+
+.btn:hover::after {
+    width: 100%;
+}
+
+
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url('https://images.unsplash.com/photo-1542816417-0983c9c9ad53') center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    /* min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    
+}
+
+.hero span {
+    color: #f5b800;
+}
+
+/* OFFER */
+.offer {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* FOUNDER */
+.container {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.content h1 {
+    color: #f5b800;
+}
+
+.quote {
+    font-style: italic;
+}
+
+/* FOOTER */
+.footer {
+    background: #f5b800;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* FOOTER MAIN */
+.footer {
+    background: #f5b800;
+    padding: 60px 20px 0;
+}
+
+/* WHITE BOX */
+.footer-box {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* GRID */
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+/* TEXT */
+.footer h3 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer p,
+.footer li {
+    color: #555;
+    margin-bottom: 8px;
+    list-style: none;
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-links a {
+  color: black;        /* text white */
+  text-decoration: none; /* underline remove */
+}
+
+/* Hover effect (optional but recommended 🔥) */
+.footer-links a:hover {
+  color: gold;
+}
+
+.menu-toggle {
+    display: none;  /* 🔥 desktop par hide */
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+   /* MOBILE MENU SLIDE PANEL */
+@media (max-width: 768px) {
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%; /* 🔥 hidden by default */
+        width: 250px;
+        height: 100vh;
+        background: rgb(0, 0, 0);
+        flex-direction: column;
+        /* align-items: left; */
+        /* justify-content: flex-start; */
+        /* gap: 30px; */
+        padding: 80px 20px;
+        transition: right 0.3s ease;
+        
+    }
+
+    .nav-links.active {
+        right: 0; /* 🔥 slide in */
+    }
+
+    .nav-links a {
+        color: white;
+        font-size: 18px;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 26px;
+        cursor: pointer;
+        color: white;
+        z-index: 1100;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+
+
+.slider {
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    animation: scroll 10s linear infinite;
+}
+
+.slider:hover .cards {
+    animation-play-state: paused;
+}
+
+.card {
+    min-width: 250px;
+    background: #eee;
+    padding: 40px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cards {
+    display: flex;
+    gap: 0;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+/* hover par stop */
+.slider:hover .cards {
+    animation-play-state: paused;
+}
+
+.card {
+    min-width: 250px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    border-radius: 15px;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 193, 7, 0.7),
+              0 0 50px rgba(255, 193, 7, 0.5),
+              0 0 80px rgba(255, 193, 7, 0.3);
+}
+
+/* animation */
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-33.333%);
+    }
+}
+.offer-section h1 {
+    text-align: center;
+    padding: 60px 20px;
+    color: #f5b800;
+}
+.offer-section h2 {
+    /* text-align: center;
+    padding: 60px 20px; */
+    color: #f5b800;
+}
+
+
+/* CONTACT HERO */
+.contact-hero {
+    height: 300px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* HERO BACKGROUND IMAGE */
+.contact-hero {
+    height: 350px;
+    background: url('https://images.unsplash.com/photo-1542816417-0983c9c9ad53') no-repeat center center/cover;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.contact-hero .overlay {
+    background: rgba(0, 0, 0, 0);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* TEXT */
+.contact-hero h1 {
+    font-size: 50px;
+}
+
+.contact-hero p {
+    color: gold;
+    margin-top: 10px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #eee;
+    padding: 30px;
+    border-radius: 12px;
+    width: 280px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+/* FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #f5b800;
+}
+
+.contact-form-have-a-question {
+    color: #008000;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.row input {
+    width: 260px;
+    padding: 12px;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+}
+
+textarea {
+    width: 540px;
+    max-width: 540px;
+    height: 150px;
+    display: block;
+    margin: 0 auto 20px auto; /* 🔥 center */
+    padding: 12px;
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+}
+
+@media (max-width: 768px) {
+   textarea {
+      width: 100%;
+      height: 120px; /* chota size mobile ke liye */
+   }
+}
+
+.contact-form button {
+    display: block;
+    margin: 0 auto; /* 🔥 center */
+    padding: 12px 40px;
+    background: gold;
+    border: none;
+    border-radius: 8px;
+    /* cursor: pointer; */
+}
+
+/* TILAWAT HERO */
+.tilawat-hero {
+   height: 60vh;
+   background: url('https://images.unsplash.com/photo-1542816417-0983c9c9ad53') center/cover no-repeat;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color: white;
+}
+
+.tilawat-content {
+   padding: 50px;
+   text-align: center;
+}
+
+.Tilawat-cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+}
+
+.Tilawat-card {
+   text-align: center;
+   background: #eee;
+   padding: 20px;
+   border-radius: 10px; 
+   
+}
+
+.audio-box {
+    text-align: center;
+    
+}
+
+.audio-box audio {
+    display: block;
+    margin: 0 auto;
+    width: 250px; /* ya 300px apni marzi se */
+    
+}
+
+/* FOUNDER-SECTION 1 */
+.founder-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+}
+
+.founder-color{
+    color: green;
+    margin-bottom: 10px;
+}
+.founder-name-color{
+    color: #f5b800;
+}
+.title-line-founder {
+    width: 150px;
+    height: 4px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffcc00, #000000);
+}
+
+.founder-img img {
+    width: 500px;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+    display: block;
+}
+
+/* Hover Glow Effect */
+.founder-img:hover {
+    border-radius: 15px;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 193, 7, 0.7),
+              0 0 50px rgba(255, 193, 7, 0.5),
+              0 0 80px rgba(255, 193, 7, 0.3);
+}
+
+
+.founder-text {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .founder-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder-img img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.title-line {
+    width: 180px;
+    height: 4px;
+    margin: -40px auto 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffcc00, #000000);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilawat - Quran Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR (copy same as home page) -->
+<nav class="navbar">
+      <div class="logo">
+        <a href="index.html">Quran Journey</a>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="tilawat.html">Tilawat</a></li>
+        <li><a href="#">Seerah</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="#" class="btn">Register Now</a>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero tilawat-hero">
+    <div class="hero-content">
+        <h1>Tilawat</h1>
+        <p>Listen and reflect on the beautiful recitation of Quran</p>
+    </div>
+</section>
+
+<!-- CONTENT SECTION -->
+<section class="tilawat-content">
+    <h2>Recitations</h2>
+
+    <div class="Tilawat-cards">
+
+        <div class="Tilawat-card">
+            <h3>Surah Rahman</h3>
+            <div class="audio-box">
+            <audio controls>
+                <source src="audiomusic.mp3" type="audio/mp3">
+            </audio>
+            </div>
+        </div>
+
+        <div class="Tilawat-card">
+            <h3>Surah Yaseen</h3>
+            <div class="audio-box">
+            <audio controls>
+                <source src="audio/yaseen.mp3" type="audio/mp3">
+            </audio>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-box">
+
+        <div class="footer-grid">
+
+            <!-- About -->
+            <div>
+                <h3>About Us</h3>
+                <p>
+                    A trusted platform to learn and<br> reflect on the Seerah 
+                    of Prophet Muhammad ﷺ.
+                </p>
+            </div>
+
+                <!-- Links -->
+             <div class="footer-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="tilawat.html">Tilawat</a></li>
+                    <li><a href="seerah.html">Seerah</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+             </div>
+
+            <!-- Contact -->
+            <div>
+                <h3>Contact Info</h3>
+                <p>info@seerahjourney.com</p>
+                <p>Islamabad, Pakistan</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        © 2026 All Rights Reserved
+    </div>
+
+</footer>
+
+</body>
+</html>
